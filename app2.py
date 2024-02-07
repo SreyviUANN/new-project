@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 import streamlit as st
 ad = pd.read_csv(
-    'C:/Users/ASUS/Desktop/coding/programing/new project/Advertising Budget and Sales.csv',
+    'Advertising Budget and Sales.csv',
     index_col=[0],
 )
 columns = ["tv", "radio", "news", "sales"]
